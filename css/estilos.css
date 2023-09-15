@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(182, 219, 207);
 
 }
 
@@ -23,21 +23,21 @@ figure >img{
 }
 .flexContainer{
     display: flex;
-    background-color: blue;
+    background-color: rgb(156, 154, 130);
     justify-content: space-between;
 }
 .divIzquierdo{
 
-    width: 80%;
+    width: 60%;
     background-color: blueviolet;
-    height: 200px;
+   
 }
 
 .divDerecho{
     
-    width: 15%;
-    background-color:brown;
-    height: 200px;
+    width: 30%;
+    background-color:rgb(117, 151, 132);
+    
 }
 
 div >img{
@@ -45,7 +45,23 @@ div >img{
     height: 50px;
 
 }
-p{
-    margin-top:80px;
-    margin-left: 10px;
+.divfondoizquierdo{
+    
+    width: 50px;
 }
+.imgentamaño{
+    width: 100px;
+    height: 100px;
+}
+.flexcontainerdos{
+
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    text-align: center;
+}
+
+
+    
+
+
