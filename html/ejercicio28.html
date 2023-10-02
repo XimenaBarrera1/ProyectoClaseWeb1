@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo JS</title>
+    <script src="../js/utilidades.js"></script>
+</head>
+<body>
+     <script>
+
+     var h1 = crearNodoTexto("h1", "Quick Table Of Content");
+     adicionarNodoBody(h1);
+
+
+     var ol = crearNodo("ol");
+
+     var liUno = crearNodoTexto("li", " Lorem ipsum dolor sit amet consectetur adipisicing elit.");
+     var liDos= crearNodoTexto("li", " Lorem ipsum dolor sit amet consectetur adipisicing elit.");
+     var liTres = crearNodoTexto("li", " Lorem ipsum dolor sit amet consectetur adipisicing elit.");
+     var liCuatro = crearNodoTexto("li", " Lorem ipsum dolor sit amet consectetur adipisicing elit.");
+
+     adicionarNodoContendor(ol,liUno);
+     adicionarNodoContendor(ol,liDos);
+     adicionarNodoContendor(ol,liTres);
+     adicionarNodoContendor(ol,liCuatro);
+    
+
+     adicionarNodoBody(ol);
+  
+     var a = crearNodoA("li", "#");
+     adicionarNodoBody(a);
+
+
+     </script>
+     
+</body>
+</html>
